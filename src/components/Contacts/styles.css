@@ -1,0 +1,84 @@
+#container {
+  width: 400px;
+  background-color: #393e46;
+  padding: 20px;
+  opacity:0.9;
+}
+
+input {
+  border: none;
+  box-shadow: none;
+  background: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0px;
+  background-color: #00adb5;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  background-color: #00fff5;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list {
+  color: rgb(65, 25, 31);
+  margin: 15px 0;
+}
+
+.list > li {
+  border-radius: 5px;
+  background-color: #00adb5;
+  padding: 5px;
+  margin-bottom: 2px;
+  display: flex;
+}
+
+.btn {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.btn > button {
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color:#FF8BA0;
+}
+.btn > button:hover{
+  background-color: #E41F7B;
+
+} 
+
+
+.list > .listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+
+.list > li > .rembtn {
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #FF8BA0;
+}
+
+.list > li > .rembtn:hover{
+  background-color: #E41F7B;
+}

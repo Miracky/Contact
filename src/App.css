@@ -1,0 +1,9 @@
+.App {
+  background-image: url('backGround.jpg');
+  background-size: cover;
+  color: rgb(212, 212, 221);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
